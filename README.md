@@ -34,3 +34,21 @@
 ### redis==4.1.2
 
 ## 项目结构
+
+```shell
+meituan/
+├── app
+│  ├── service
+│     ├── user
+│     ├── shop
+│     ├── delivery
+│     ├── admin
+|  ├── template
+│  ├── static
+│     ├── css
+│     ├── img
+│     ├── js
+├── log
+├── pkg
+├── utils
+  
