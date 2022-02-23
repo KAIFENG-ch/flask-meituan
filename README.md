@@ -51,7 +51,8 @@ meituan/
 ├── log
 ├── pkg
 ├── utils
-  
+``` 
+ 
 - app : 封装应用服务
 - log : 存放日志文件
 - pkg : 存放错误码
