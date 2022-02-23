@@ -84,3 +84,6 @@ email:
 
 ## 入口文件
 ### main.py
+
+## uwsgi部署文件
+### run.ini
