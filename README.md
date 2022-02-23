@@ -52,3 +52,34 @@ meituan/
 ├── pkg
 ├── utils
   
+- app : 封装应用服务
+- log : 存放日志文件
+- pkg : 存放错误码
+- utils : 存放工具函数
+
+## 配置文件
+```
+DB:
+  host : '127.0.0.1'
+  username : 'root'
+  password :
+  port : 3306
+  database : 'meituan'
+
+Redis:
+  host : '127.0.0.1'
+  port : 6379
+
+server:
+  port : 8000
+
+email:
+  addr : '3184218074@qq.com'
+  password : 
+```
+## 说明
+### MySQL存储用户，商品，评论数据
+### redis存储点赞，收藏，转发的数据
+
+## 入口文件
+### main.py
