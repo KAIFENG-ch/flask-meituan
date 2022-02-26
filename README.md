@@ -61,21 +61,21 @@ meituan/
 ## 配置文件
 ```
 DB:
-  host : '127.0.0.1'
-  username : 'root'
+  host : 127.0.0.1
+  username : root
   password :
   port : 3306
-  database : 'meituan'
+  database : meituan
 
 Redis:
-  host : '127.0.0.1'
+  host : 127.0.0.1
   port : 6379
 
 server:
   port : 8000
 
 email:
-  addr : '3184218074@qq.com'
+  addr : 3184218074@qq.com
   password : 
 ```
 ## 说明
